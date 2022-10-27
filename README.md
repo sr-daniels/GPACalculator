@@ -9,4 +9,4 @@ Time spent: **5** hours spent in total
 
 Here's a overview of the app:
 
-<img src='https://github.com/sr-daniels/GPACalculator/blob/main/GPACalculator_Walkthrough.gif' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sr-daniels/GPACalculator/blob/main/GPACalculator_Walkthrough.gif' width='200' alt='Video Walkthrough' />
