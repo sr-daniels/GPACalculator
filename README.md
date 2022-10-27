@@ -9,4 +9,4 @@ Time spent: **5** hours spent in total
 
 Here's a overview of the app:
 
-<img src='https://github.com/sr-daniels/Twitter-iOS-Codepath/blob/main/ezgif.com-gif-maker%20(18).gif' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sr-daniels/GPACalculator/blob/main/GPACalculator_Walkthrough.gif' width='' alt='Video Walkthrough' />
