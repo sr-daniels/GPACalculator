@@ -1,6 +1,6 @@
 # NCSU GPA Calculator
 
-This is a basic app to calculate a projected GPA based on current GPA and course outlook.
+Have you been wondering what your GPA might look like in the future? If so, this GPA calculator allows students to determine how their grades will affect their cumulative GPA. Users input their current GPA and estimated course letter grades to see if their projected GPA meets their goals.
 
 Time spent: **5** hours spent in total
 
