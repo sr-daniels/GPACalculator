@@ -33,29 +33,11 @@ class GPAViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // create a new cell if needed or reuse an old one
-        //self.tableView.cell
         let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as! CourseTableViewCell
         
         let formatted = cell as! CourseTableViewCell
-        //formatted.viewController = self
         formatted.credits.text = nil
         formatted.Grade.text = nil
-        //cell.accessoryType = UITableViewCell.AccessoryType.none;
-        /*
-        if (cellDataCredits.count != 0 && cellDataCredits.count >= indexPath.item) {
-            formatted.credits.text = cellDataCredits[indexPath.item]
-            formatted.Grade.text = cellDataLetter[indexPath.item]
-        } else {
-            formatted.credits.text = nil
-            formatted.Grade.text = nil
-        }
-        */
-        
-
-        //let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: cellReuseIdentifier)
-
-        
-        //collectionView.dequeueReusableCell(withReuseIdentifier: "MovieGridCell", for: indexPath) as! MovieGridCell
         
         // set the text from the data model
         cell.textLabel?.text = "Course " + String(indexPath.item + 1)
@@ -76,7 +58,6 @@ class GPAViewController: UIViewController, UITableViewDelegate, UITableViewDataS
 
         for aCell in getCells {
             gradeEquivalent = 0.0
-            //aCell.Grade
             switch aCell.Grade.text {
             case "A+":
                 gradeEquivalent = 4.3

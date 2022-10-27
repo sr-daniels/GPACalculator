@@ -27,15 +27,5 @@ class CourseTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    /*
-    override func prepareForReuse() {
-        let modifyMyArrays = self.viewController
-        modifyMyArrays?.cellDataLetter.append(Grade.text ?? "")
-        modifyMyArrays?.cellDataCredits.append(credits.text ?? "")
-        /*
-        controller.numCourses = (Int(courseField.text!)!)
-        controller.currentPoints = Double(gpaField.text!)! * Double(degreeField.text!)!
-        controller.submittedDegreeCredits = Int(degreeField.text!)!*/
-    }
-     */
+    
 }
